@@ -1,6 +1,6 @@
 // 42.  Leer dos números enteros y determinar si la diferencia entre los dos es un número par.
 
-function resultadoEsPrimo(numero1, numero2) {
+function resultadoEsPar(numero1, numero2) {
     // Aqui realizamos las resta de los numeros
     let resultado = numero1 - numero2
     // En caso de que la resta sea negativa o menor que 0, aplicamos un condicional que convierta el numero a positivo
@@ -13,4 +13,4 @@ function resultadoEsPrimo(numero1, numero2) {
         
 }
 
-resultadoEsPrimo(10000, 10000)
+resultadoEsPar(10000, 10000)
